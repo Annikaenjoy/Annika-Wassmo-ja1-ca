@@ -1,0 +1,180 @@
+
+
+
+/* BODY
+-------------------------------------*/
+header {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+}
+body {
+  background-color:#05426a;
+  max-width: 1400px;
+  margin: 40px auto 0 auto;
+}
+
+.resultsContainer {
+  margin: 20px;
+}
+  .results {
+  box-sizing: border-box;
+  background-color: #3788be;
+  border-radius: 5px;
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+footer p {
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+/* NAVIGTION
+----------------------------------------------------*/
+nav ul {
+  padding: 0px;
+  text-align: center;
+}
+nav,li, a {
+  text-decoration: none;
+  list-style-type: none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: greenyellow;
+  display: inline-block;
+  padding: 10px;
+}
+.navbar a:link {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 18px;
+  color: greenyellow;
+}
+.navbar a:hover {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #fff;
+}
+a {
+  cursor: pointer;
+}
+/* HEADINGS AND TEXT
+----------------------------------------------------*/
+h1 {
+    font-family: 'Jolly Lodger', cursive;
+    font-size: 60px;
+    letter-spacing: 3px;
+    color: greenyellow;
+    text-align: center;
+}
+h2 {
+    font-family: 'Jolly Lodger', cursive;
+    font-size: 36px;
+    letter-spacing: 3px;
+    color: greenyellow;
+}
+p {
+    font-size: 18px;
+    color: black;
+}
+/* BACKGROUND AND IMAGE
+----------------------------------------------------*/
+img {
+    background-color:  #3788be;
+    padding: 20px;
+    border-radius: 5px;
+}
+.img-index {
+    border-radius: 10%;
+    opacity: 0.6;
+    transition: opacity 0.10s ease-in-out;
+    -moz-transition: opacity 0.10s ease-in-out;
+    -webkit-transition: opacity 0.10s ease-in-out;
+}
+.img-index:hover {
+    border-radius: 10%;
+    opacity: 1.0;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+}​
+/* CONTACT.HTML AND FORM
+----------------------------------------------------*/
+.error {
+    border: 1px solid #8b0000;
+    padding: 10px;
+    color: darkred;
+    background: #fff;
+}
+.loader {
+    border: 16px solid #f3f3f3;
+    border-top: 16px solid #8b0000;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+}
+*{
+    box-sizing: border-box;
+}
+.form-container {
+    max-width: 760px;
+    padding: 40px;
+    margin: auto;
+    border-radius: 10%;
+    background-color:#3788be;
+}
+form {
+    padding: 5px;
+    border-radius: 5px;
+}
+input {
+    width: 100%;
+    margin-top: 2px;
+    padding: 10px;
+    font-size: 16px;
+}
+button {
+    background: #008000;
+    border: none;
+    border-radius: 2px;
+    width: 200px;
+    padding: 15px;
+    color: white;
+    margin-top: 20px;
+    cursor: pointer;
+}
+label {
+    display: block;
+    margin-top: 20px;
+    color: #fff;
+}
+.form-error {
+    display: none;
+    color: #ff0000;
+    background: #fff;
+    font-size: 14px;
+    margin-top: 2px;
+}
+#message {
+    color: #fff;
+    font-size: 18px;
+    border-radius: 2px;
+    margin-bottom: 10px;
+}
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+@media (min-width: 500px) {
+  .resultsContainer {
+    display: flex;
+    justify-content: space-between;
+  }
+}
