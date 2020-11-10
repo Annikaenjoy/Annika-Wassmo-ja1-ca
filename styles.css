@@ -60,6 +60,11 @@ nav,li, a {
 a {
   cursor: pointer;
 }
+.details-description {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 18px;
+  padding: 10px;
+}
 /* HEADINGS AND TEXT
 ----------------------------------------------------*/
 h1 {
@@ -82,24 +87,9 @@ p {
 /* BACKGROUND AND IMAGE
 ----------------------------------------------------*/
 img {
-    background-color:  #3788be;
     padding: 20px;
-    border-radius: 5px;
-}
-.img-index {
     border-radius: 10%;
-    opacity: 0.6;
-    transition: opacity 0.10s ease-in-out;
-    -moz-transition: opacity 0.10s ease-in-out;
-    -webkit-transition: opacity 0.10s ease-in-out;
 }
-.img-index:hover {
-    border-radius: 10%;
-    opacity: 1.0;
-    transition: opacity .25s ease-in-out;
-    -moz-transition: opacity .25s ease-in-out;
-    -webkit-transition: opacity .25s ease-in-out;
-}​
 /* CONTACT.HTML AND FORM
 ----------------------------------------------------*/
 .error {
@@ -177,4 +167,18 @@ label {
     display: flex;
     justify-content: space-between;
   }
+  .img-index {
+    border-radius: 10%;
+    opacity: 0.6;
+    transition: opacity 0.10s ease-in-out;
+    -moz-transition: opacity 0.10s ease-in-out;
+    -webkit-transition: opacity 0.10s ease-in-out;
+}
+  .img-index:hover {
+    border-radius: 10%;
+    opacity: 1.0;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+ }
 }
